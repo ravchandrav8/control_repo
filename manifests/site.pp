@@ -1,4 +1,3 @@
-node default {
-   
+node default {   
    include ::devenv::devenvt
    }
