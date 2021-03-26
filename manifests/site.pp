@@ -1,6 +1,6 @@
 node default {
    class devt{
-      file{'/root/devt.txt':
+      file{'/etc/puppetlabs/code/environments/production/devt.txt':
       ensure=>file
       }
    }
