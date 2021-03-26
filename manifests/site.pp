@@ -1,5 +1,5 @@
 node default {
-   file {'/root/README':
+   file {'/root/RaviFile.txt':
     ensure => file,
     content => "Test data",
     }
