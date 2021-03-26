@@ -1,3 +1,6 @@
 node default {
-   include devenv
+   class devt{
+      file{'/root/devt.txt':
+      ensure=>file
+      }
    }
