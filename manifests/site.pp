@@ -1,6 +1,6 @@
 node default {
    class
-   { 'Classtest':
+   { 'dev_environment':
       ensure => present,
    }
    file {'/root/RaviFile.txt':
