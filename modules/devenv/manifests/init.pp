@@ -8,6 +8,6 @@ file {'/root/RaviFile.txt':
       }
 file {'/root/tesclass2.txt':
       ensure=>present,
-      content=>'extra lines',
+      content=>'extra lines to this text',
       }
       }
