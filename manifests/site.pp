@@ -1,3 +1,3 @@
 node default {
-   include ::ntp::dev_environment
+   include dev_environment
    }
